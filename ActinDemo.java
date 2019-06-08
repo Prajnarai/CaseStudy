@@ -12,7 +12,7 @@ public class ActinDemo {
 
 		System.setProperty("webdriver.chrome.driver", "C:\\Prajna\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-
+System.out.println("Demo");
 		driver.get("http://www.amazon.com");
 		Actions a = new Actions(driver);
 		driver.manage().window().maximize();
