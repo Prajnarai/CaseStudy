@@ -7,6 +7,8 @@ public class Alerts {
 	public static void main(String[] args) {
 		
 		System.setProperty("webdriver.chrome.driver", "C:\\Prajna\\chromedriver.exe");
+		
+		
 		WebDriver driver = new ChromeDriver();
 		
 		driver.get("http://www.tizag.com/javascriptT/javascriptalert.php");
